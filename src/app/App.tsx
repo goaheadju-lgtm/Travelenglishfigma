@@ -25,7 +25,7 @@ export default function App() {
         {/* Background Image with Overlay */}
         <div className="absolute inset-0">
           <ImageWithFallback
-            src="figma:asset/ef67682aa56d6944fef04105be464eee7ee22afd.png"
+            src="/images/bg-image.jpg"
             alt="Travel"
             className="w-full h-full object-cover opacity-30"
           />
