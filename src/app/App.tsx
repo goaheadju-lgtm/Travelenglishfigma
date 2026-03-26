@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
 import { Plane, Globe, MapPin, Coffee, Heart, Users, MessageCircle, Clock, Calendar, Monitor, Wifi, ChevronRight, Check, Star, Sparkles } from 'lucide-react';
 import { ImageWithFallback } from './components/figma/ImageWithFallback';
+import heroImage from 'figma:asset/ef67682aa56d6944fef04105be464eee7ee22afd.png';
 
 export default function App() {
   const [scrolled, setScrolled] = useState(false);
@@ -25,7 +26,7 @@ export default function App() {
         {/* Background Image with Overlay */}
         <div className="absolute inset-0">
           <ImageWithFallback
-            src="https://images.unsplash.com/photo-1597245480778-915a20534323?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx0cmF2ZWwlMjBhaXJwbGFuZSUyMHN1bnNldCUyMGdvbGRlbiUyMGhvdXJ8ZW58MXx8fHwxNzc0NTM4NjkyfDA&ixlib=rb-4.1.0&q=80&w=1080"
+            src={heroImage}
             alt="Travel"
             className="w-full h-full object-cover opacity-30"
           />
