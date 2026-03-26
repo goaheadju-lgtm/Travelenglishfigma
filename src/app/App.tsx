@@ -24,11 +24,11 @@ export default function App() {
       <header className="relative min-h-screen flex items-center justify-center overflow-hidden">
         {/* Background Image with Overlay */}
         <div className="absolute inset-0">
-          <ImageWithFallback
-            src="figma:asset/ef67682aa56d6944fef04105be464eee7ee22afd.png"
-            alt="Travel"
-            className="w-full h-full object-cover opacity-30"
-          />
+          <img
+  src="/images/bg-image.jpg"
+  alt="Travel"
+  className="w-full h-full object-cover opacity-30"
+/>
           <div className="absolute inset-0 bg-gradient-to-b from-slate-950/60 via-slate-950/80 to-slate-950"></div>
         </div>
 
